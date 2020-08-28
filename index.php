@@ -33,7 +33,7 @@ if (isset($_POST['sub'])){
 $city = $_POST['city'];
 
 
-$url="http://api.openweathermap.org/data/2.5/weather?q=".$city."&units=metric&cnt=7&lang=en&appid=73824d1e06fca7c4db1126ee2360869d";
+$url="http://api.openweathermap.org/data/2.5/weather?q=".$city."&units=metric&cnt=7&lang=en&appid=xxxxxxxxxxxxxxxxxxxxx";
 
 $json=file_get_contents($url);
 
